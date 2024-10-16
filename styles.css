@@ -46,3 +46,46 @@ body{
     font-size: 18px;
     text-decoration: none;
 }
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.hero .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 60%;
+}
+.hero .left{
+    padding: 20px 0;
+}
+.hero .left h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.hero .left p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.hero .left button{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 800;
+    padding: 5px 28px;
+    text-decoration: none;
+}
+.hero .right{
+    background-color: #6D747D;
+    width: 95%;
+    justify-content: center;
+    align-self: stretch;
+}
