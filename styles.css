@@ -54,17 +54,18 @@ body{
     justify-content: center;
     align-items: center;
     padding: 16px;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 .hero .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 16px;
     width: 60%;
 }
 .hero .left{
-    padding: 20px 0;
+    padding: 24px 0;
 }
 .hero .left h1{
     color: #f9faf8;
@@ -76,6 +77,7 @@ body{
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 8px;
+    padding-right: 72px;
 }
 .hero .left button{
     color: #e5e7eb;
@@ -88,7 +90,7 @@ body{
 }
 .hero .right{
     background-color: #6D747D;
-    width: 90%;
+    width: 95%;
     justify-content: center;
     align-self: stretch;
 }
