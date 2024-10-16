@@ -17,6 +17,8 @@
 body{
     height: 100vh;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     display: flex;
@@ -52,6 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 16px;
+    flex: 1;
 }
 .hero .container{
     display: flex;
@@ -85,7 +88,7 @@ body{
 }
 .hero .right{
     background-color: #6D747D;
-    width: 95%;
+    width: 90%;
     justify-content: center;
     align-self: stretch;
 }
