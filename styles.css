@@ -157,3 +157,30 @@ body{
     margin-left: auto;
     width: 30%;
 }
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta .container{
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 42px 0px;
+    width: 60%;
+}
+.cta .left .text{
+    color: #f9faf8;
+}
+.cta .right button{
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 5px 2.15rem;
+    text-decoration: none;
+}
