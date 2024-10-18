@@ -95,3 +95,41 @@ body{
     justify-content: center;
     align-self: stretch;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.info h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.info .container{
+    display: flex;
+    gap: 64px;
+}
+.info .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+}
+.info .box{
+    border: 4px solid #3882f6;
+    border-radius: 8%;
+    margin: 8px;
+    height: 150px;
+    width: 150px;
+}
+.info .text{
+    color: #6D747D;
+    font-weight: 400;
+    max-width: 150px;
+}
