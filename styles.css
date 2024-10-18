@@ -17,6 +17,8 @@
 body{
     height: 100vh;
     font-family: Roboto, sans-serif;
+    transform: scale(0.8);
+    -moz-transform: scale(0.8);
 }
 .header{
     display: flex;
