@@ -17,8 +17,6 @@
 body{
     height: 100vh;
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 .header{
     display: flex;
@@ -48,14 +46,15 @@ body{
     font-size: 18px;
     text-decoration: none;
 }
+.hero, .info, .quote, .cta{
+    height: 50%;
+}
 .hero{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 16px;
-    flex-grow: 1;
-    flex-shrink: 0;
 }
 .hero .container{
     display: flex;
@@ -107,7 +106,7 @@ body{
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 .info .container{
     display: flex;
@@ -152,10 +151,11 @@ body{
     font-weight: 300;
 }
 .quote .author{
-    font-size: 20px;
+    color: #1f2937;
+    font-size: 28px;
     font-weight: 600;
     margin-left: auto;
-    width: 30%;
+    width: 35%;
 }
 .cta{
     display: flex;
@@ -168,7 +168,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 42px 0px;
+    padding: 64px 0px;
     width: 60%;
 }
 .cta .left .text{
