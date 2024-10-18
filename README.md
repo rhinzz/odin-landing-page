@@ -16,3 +16,6 @@ Project is created with:
 	
 ## Screenshot
 ![output](./output.png)
+
+## Link
+https://rhinzz.github.io/odin-landing-page/
