@@ -8,7 +8,7 @@ The Odin Project assignment to create simple landing page using flexbox
 * [Link](#link)
 
 ## General info
-This is an exercise from The Odin Project to create simple landing page using HTMl and CSS flexbox. Nowadays flexbox is used widely to build responsive web pages. This technology allows flexibility in aligning web content and responsive page across many devices.
+This is an exercise from The Odin Project to create simple landing page using HTML and CSS flexbox. Nowadays flexbox is used widely to build responsive web pages. This technology allows flexibility in aligning web content and responsive page across many devices.
 
 ## Technologies
 Project is created with:
